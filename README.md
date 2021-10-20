@@ -1,4 +1,25 @@
-# Spring Security with JWT - Version 2 - Generate JWT
+# Spring Security with JWT - Version 3 - Read JWT
+
+### CustomAuthorizationFilter
+
+  use http.addFilterBefore();
+  this is to be filtered before any other requests
+
+### configure your url for authorisation
+
+### test
+
+  run the same step to generate jwt
+  
+  then request GET localhost:8081/api/users
+  > Body > x-www-form >
+  Authorisation: Bearer <token>
+
+  the response will return list of users
+
+###
+************
+###
 
 ### Security Configuration
 
