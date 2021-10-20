@@ -1,7 +1,7 @@
 # Spring Security with JWT - Version 2 - Generate JWT
 
 ### Use Case
-
+ 
   this will be in 3 parts:
   1. setup roles & secure service with basic auth
   2. generate jwt token
