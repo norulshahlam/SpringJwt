@@ -1,5 +1,33 @@
 # Spring Security with JWT - Version 2 - Generate JWT
 
+### Security Configuration
+
+### Custom user detail service
+
+  Logic to check user credentials during login
+
+### CustomAuthenticationFilter
+
+  Authenticate user credentials if success, generate jwt
+
+### encrypt password
+
+### test
+
+  test this in Postman
+  POST http:8081/login
+  
+  > Body > x-www-form >
+
+  username: john
+  password: 1234
+
+  you will get jwt as the response
+
+###
+************
+###
+
 ### Use Case
  
   this will be in 3 parts:
@@ -65,6 +93,9 @@
       }
     ]
   }
+
+
+
 
 ### setup docker for db
 
