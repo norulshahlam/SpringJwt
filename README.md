@@ -1,4 +1,4 @@
-# Spring Security with JWT - Version 2 - Generate JWT
+# Spring Security with JWT - Version 1 - Setup User and roles and secure API
 
 ### Use Case
  
