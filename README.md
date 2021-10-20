@@ -1,4 +1,27 @@
-# Spring Security with JWT - Version 3 - Read JWT
+# Spring Security with JWT - Version 4 - Refresh JWT
+
+### create controller to refresh token
+
+### in security config, allow this url to pass thru
+
+### in filter, allow this url to pass through.
+
+### test
+
+  set token to expire in 1 min
+  login user to get token
+  get allusers using this token
+  let 1 min pass to expire the tokens
+  get all users again to check if it expires
+  now GET localhost:8081/api/token/refresh,
+    > Body > x-www-form >
+    Authorisation: Bearer <refresh-token>
+
+  the response will new token and refresh token
+
+###
+************
+###
 
 ### CustomAuthorizationFilter
 
@@ -10,7 +33,7 @@
 ### test
 
   run the same step to generate jwt
-  
+
   then request GET localhost:8081/api/users
   > Body > x-www-form >
   Authorisation: Bearer <token>
