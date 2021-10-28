@@ -25,7 +25,7 @@
   you will get jwt as the response
 
 ###
-************
+Spring Security with JWT - Version 1 - Setup User and roles and secure API
 ###
 
 ### Use Case
