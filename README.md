@@ -20,8 +20,9 @@
   the response will new token and refresh token
 
 ###
-************
+Spring Security with JWT - Version 3 - Read JWT
 ###
+
 
 ### CustomAuthorizationFilter
 
@@ -33,7 +34,7 @@
 ### test
 
   run the same step to generate jwt
-
+  
   then request GET localhost:8081/api/users
   > Body > x-www-form >
   Authorisation: Bearer <token>
@@ -41,7 +42,7 @@
   the response will return list of users
 
 ###
-************
+Spring Security with JWT - Version 2 - Generate JWT
 ###
 
 ### Security Configuration
@@ -69,7 +70,7 @@
   you will get jwt as the response
 
 ###
-************
+Spring Security with JWT - Version 1 - Setup User and roles and secure API
 ###
 
 ### Use Case
