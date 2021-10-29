@@ -191,20 +191,20 @@ Spring Security with JWT - Version 1 - Setup User and roles and secure API
 
 ### test initial data in db
 
-    `run mysql in cli using docker`
-    docker exec -it localhost bash
+`run mysql in cli using docker`  
+  docker exec -it localhost bash
 
-    `connect to mysql`
-	mysql -u admin -proot
-	
-    `test`
+`connect to mysql`  
+  mysql -u admin -proot
+
+`test`  
 	use mydb;
 	show tables;
-    select * from user;
-    select * from role;
-    select * from user_roles;
+  select * from user;
+  select * from role;
+  select * from user_roles;
 
-    `stop & remove all running proceses`
+`stop & remove all running proceses`  
 	docker rm $(docker ps -a -q) -f
 
 
